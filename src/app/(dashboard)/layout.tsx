@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar"
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-    title: "Lama Dev School Management Dashboard",
+    title: "Onedra School Management Dashboard",
     description: "Next.js School Management System",
 };
 
@@ -24,7 +24,7 @@ export default function DashboardLayout({
             <div className='w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%]  p-4'>
                 <Link href='/' className='flex items-center justify-center lg:justify-start gap-2'>
                     <Image src='/logo.png' width={32} height={32} alt='Logo'/>
-                    <span className="hidden lg:block">Onedra</span>
+                    <span className="hidden lg:block font-bold">Onedra</span>
                 </Link>
                 <Menu />
             </div>
