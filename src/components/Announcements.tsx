@@ -6,7 +6,7 @@ const Announcements=()=>{
     return (
         <div className="bg-white p-4 rounded-md">
             <div className="flex items-center justify-between">
-                <h1 className="text-xl font-semibold my-4" >Events</h1>
+                <h1 className="text-xl font-semibold my-4" >Announcments</h1>
                 <p className="text-gray-400 text-xs">View All</p>
             </div>
             <div className="flex flex-col gap-4 mt-4">
